@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery.js"></script>
+    <script src="functions.js"></script>
+    <script src="main.js"></script>
+</head>
+<body id="body_content">
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button id="product_show">Get External Content</button>
+<br>
+<button id="logout">LOGOUT</button>
+<table style="width:100%">
+   <thead>
+    <tr>
+        <th>Product</th>
+        <th>Color</th>
+        <th>Price</th>
+        <th>Action</th>
+    </tr>
+   </thead>
+    <tbody>
+
+    </tbody>
+
+</table>
+
+
+<div id="product-content">
+
+</div>
+
+
+<form method="post" id="ajax_form" action="" >
+  <p>Procduct  Name: <input type="text" name="name"  /></p>
+  <p>Procduct  Color:<input type="text" name="color"  /></p>
+    <p>Procduct   Price<input type="text" name="price"  /></p>
+    <input type="button" id="btn" value="Send" />
+</form>
+
+
+</body>
+</html>
